@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" thread-count="5" parallel="tests">
+
+	<test name="chromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="teamB.CrossBrowserChrome" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="edgeTest">
+		<parameter name="browser" value="edge" />
+
+		<classes>
+			<class name="teamB.CrossBrowserEdge" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

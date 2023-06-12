@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="inputdata" value="selenium" />
+		<parameter name="places" value="india" />
+
+	<classes>	
+		<class name="teamB.ParametersXml" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
